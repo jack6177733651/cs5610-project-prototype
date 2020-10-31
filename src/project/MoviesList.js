@@ -18,7 +18,7 @@ export class MoviesList extends React.Component {
     }
 
     searchMovies = () => {
-        axios.get(`http://www.omdbapi.com/?apikey=4dc3a14a&s=${this.state.title}`)
+        axios.get(`https://www.omdbapi.com/?apikey=4dc3a14a&s=${this.state.title}`)
             .then(response => this.setState({movies: response.data.Search}))
     }
 

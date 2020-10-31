@@ -12,7 +12,7 @@ class MovieDetail extends React.Component {
     }
 
     componentDidMount() {
-        axios.get(`http://www.omdbapi.com/?apikey=4dc3a14a&i=${this.props.movieId}`)
+        axios.get(`https://www.omdbapi.com/?apikey=4dc3a14a&i=${this.props.movieId}`)
             .then(response => this.setState({movie: response.data}))
     }
 

@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MoviesManager from "./project/MoviesManager";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <MoviesManager/>
   </React.StrictMode>,
   document.getElementById('root')
 );

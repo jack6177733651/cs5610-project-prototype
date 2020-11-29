@@ -1,5 +1,5 @@
 import React from 'react'
-import MovieDetail from "./MovieDetail";
+import MovieDetail from "../SearchDetails/MovieDetail";
 import axios from 'axios'
 import {Link} from "react-router-dom";
 

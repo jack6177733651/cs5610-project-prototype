@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import MoviesManager from "./project/MoviesManager";
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
